@@ -1,0 +1,170 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #459fff;
+	font-family: Sans-Serif;
+	position: relative;
+	color: black;
+	height: 100%;
+	margin: 0;
+}
+
+
+
+#top h1{
+	color: white;
+	-webkit-text-stroke: 1.5px black;
+	display: inline;
+	padding: 10px;
+	position: relative;
+	top: 15px;
+}
+
+
+form {
+	display: inline;
+}
+
+a {
+	text-decoration:none;
+}
+
+div {
+	position: relative;
+	display: inline;
+}
+
+
+#title {
+	float: left;
+}
+
+#search {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#searchbar {
+	display:inline;
+	width: 450px;
+	height: 40px;
+	font-size: 20px;
+	outline: none;
+	font-weight: bold;
+	margin-right: 0px;
+	border: none;
+}
+
+#buttonTable {
+	float: left;
+	position: relative;
+	top: 14px;
+}
+
+#radiobuttons {
+	text-align: left;
+	width: 250px;
+	height: 10px;
+	font-weight: bold;
+}
+
+#main {
+	display: inline-block;
+	top: 15%;
+	margin-left: auto;
+	left: 5%;
+	margin-right: auto;
+	height: 100%;
+	width: 90%;
+}
+
+
+/*header */
+#top {
+	top: 0;
+	left: 0;
+	right: 0;
+	position:fixed;
+	width:100%;
+	margin: auto;
+    background-color:#55d490;
+    font-weight: bold;
+   	height: 80px;
+   	z-index: 1;
+   	min-width: 960px;
+}
+
+/*searchbar icon identifier */
+#icon {
+	margin-left: -6px;
+	background-color:white;
+	height: 42px;
+	width: 40px;
+	position: relative;
+	top: 14px;
+	cursor: pointer;
+}
+
+
+/*profile pic */
+#profilePic {
+	float:right;
+}
+
+
+#profImage {
+	float: right;
+	margin-right: 30px;
+	margin-top: 12px;
+    border:3px solid black;    
+    height: 50px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 50px;
+    background-color: white;
+}
+
+
+.users {
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	height: 300px;
+	margin: auto;
+	padding: 40px;
+}
+
+.userImage {
+	margin: auto;
+    border:3px solid black;    
+    height: 175px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 175px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.username {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+#none {
+	color: white;
+	text-align: center;
+	margin: auto;
+	font-size: 100px;
+}
+
+#searchIconPic {
+	display: inline-block;
+}

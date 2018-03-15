@@ -1,0 +1,347 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #459fff;
+	font-family: Sans-Serif;
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	min-width: 960px;
+}
+
+
+h1 {
+	color:white;
+}
+
+
+#top {
+	color: black;
+	top: 0;
+	left: 0;
+	right: 0;
+	position:fixed;
+	width:100%;
+	margin: auto;
+    background-color:#55d490;
+    font-weight: bold;
+   	height: 80px;
+   	z-index: 1;  	
+	min-width: 960px;
+}
+
+
+#top h1{
+	color: white;
+	-webkit-text-stroke: 1.5px black;
+	display: inline;
+	padding: 10px;
+	position: relative;
+	top: 15px;
+}
+
+
+form {
+	display: inline;
+}
+
+a {
+	text-decoration:none;
+}
+
+div {
+	position: relative;
+	display: inline;
+}
+
+
+
+#title {
+	float: left;
+}
+
+#search {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#searchbar {
+	display:inline;
+	width: 450px;
+	height: 40px;
+	font-size: 20px;
+	outline: none;
+	font-weight: bold;
+	margin-right: 0px;
+	border: none;
+}
+
+#buttonTable {
+	float: left;
+	position: relative;
+	top: 14px;
+}
+
+#radiobuttons {
+	text-align: left;
+	width: 250px;
+	height: 10px;
+	font-weight: bold;
+}
+
+#main {
+	display: inline-block;
+	top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 90%;
+}
+
+#top {
+	top: 0;
+	left: 0;
+	right: 0;
+	position:fixed;
+	width:100%;
+	margin: auto;
+    background-color:#55d490;
+    font-weight: bold;
+   	height: 80px;
+   	z-index: 1;
+   	min-width: 960px;
+}
+
+#icon {
+	margin-left: -6px;
+	background-color:white;
+	height: 42px;
+	width: 40px;
+	position: relative;
+	top: 14px;
+	cursor: pointer;
+}
+
+
+/*profile pic */
+#profilePic {
+	float:right;
+	
+}
+
+
+#profImage {
+	float: right;
+	margin-right: 30px;
+	margin-top: 12px;
+    border:3px solid black;    
+    height: 50px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 50px;
+    background-color: white;
+}
+
+#leftSide {
+	float: left;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	padding-right: 50px;
+}
+
+
+
+#mainProfilePic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border:3px solid black;    
+    height: 200px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+#followerDiv {
+	color: white;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	background-color: rgb(39, 129, 192);
+}
+
+/* Style the tab */
+#leftSide .tab {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+#leftSide .tab button {
+	position: relative;
+    background-color: rgb(23, 87, 133);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+#leftSide .tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#leftSide .tab button.active {
+    background-color: rgb(39, 129, 192);
+}
+
+/* Style the tab content */
+#leftSide .tabcontent {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    background-color: rgb(39, 129, 192);
+}
+
+#rightside {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	
+}
+
+#urlibrary{
+	display: inline;
+	font-size: 40px;
+	-webkit-text-stroke: 1.0px black;
+	
+}
+
+
+#library {
+	color: white;
+	text-align: left;
+	display: inline-block;
+	width: 75%;
+	background-color: rgb(39, 129, 192);
+}
+
+/* Style the tab */
+#rightSide .tab {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: relative;
+    width: 40%;
+}
+
+/* Style the buttons that are used to open the tab content */
+#rightSide .tab button {
+	position: relative;
+    background-color: rgb(23, 87, 133);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+#rightSide .tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#rightSide .tab button.active {
+    background-color: rgb(39, 129, 192);
+}
+
+/* Style the tab content */
+#rightSide .tabcontent {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    background-color: rgb(39, 129, 192);
+}
+
+
+.libraryDiv {
+	overflow: hidden;
+	width: 25%;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	color: black;
+}
+
+.libraryDiv img {
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 150px;
+}
+
+.libraryDiv h3 {
+	display: inline-block;
+	font-size: 16px;
+	overflow: hidden;
+	margin: 0;
+	margin-top:10px;
+}
+
+.libraryDiv h4 {
+	display: inline-block;
+	margin: 0;
+	margin-top: 5px;
+}
+
+
+#read, #favorite {
+	overflow: hidden;
+}
+
+#logoutForm button {
+	background-color: #353535;
+	font-size: 24px;
+	color: white;
+	margin: 10px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	border: none;	
+	float: right;
+}

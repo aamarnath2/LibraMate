@@ -1,0 +1,112 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	text-align: center;	
+	font-family: Sans-Serif;
+	background-color: #55d490;
+	
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	-webkit-text-stroke: 2.5px black;
+	height: 50px;
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	position: relative;
+	
+}
+
+#text {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	top: -60px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	text-align: left;
+	width: 220px;
+	height: 30px;
+	font-weight: bold;
+}
+
+
+
+.main {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	padding: 4%;
+    background-color: #459fff;
+    font-weight: bold;
+    height: 60%;
+    min-width: 960px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#searchbar {
+	overflow:hidden;
+	display:inline;
+}
+	
+#search {
+	top: 40px;
+	display:inline;
+	width: 450px;
+	height: 40px;
+	font-size: 20px;
+	outline: none;
+	font-weight: bold;
+	margin-right: 0px;
+	border: none;
+}
+
+#searchIcon {
+	margin-left: -5px;
+	background-color:white;
+	height: 42px;
+	width: 40px;
+	position: relative;
+	top: 13px;
+}
+
+
+#userButtons {
+	margin-top: 15px;
+}
+
+button {
+	background-color: #353535;
+	font-size: 16px;
+	color: white;
+	margin: 10px;
+	width: 100px;
+	height: 26px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+}
